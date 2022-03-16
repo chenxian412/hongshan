@@ -1,0 +1,268 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body,
+table,
+input, textarea, select, option {
+    font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+img {
+    vertical-align: top;
+}
+
+a,
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333;
+}
+
+
+a:hover {
+    color: #333;
+    transition:.3s;
+}
+
+a:active {
+    color: #333;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    min-width: 1200px;
+    min-height: 100%;
+    overflow-x: auto;
+}
+
+body {
+    overflow: hidden;
+    color: #666666;
+    font-size: 14px;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+
+svg:not(:root){
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cf:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a[href^="tel:"] {
+    cursor: default;
+    pointer-events: none;
+}
+
+.sp {
+    display: none !important;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 767px) {
+    html,
+    body {
+        font-size: 13.33vw;
+        min-width: auto;
+    }
+
+    body {
+        font-size: .24rem;
+    }
+
+    .sp {
+        display: block !important;
+    }
+
+    .inline.sp {
+        display: inline !important;
+    }
+
+    .pc {
+        display: none !important;
+    }
+
+    a[href^="tel:"] {
+        cursor: pointer;
+        pointer-events: auto;
+    }
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 2618828 */
+  src: url('https://at.alicdn.com/t/font_2618828_iu1fkgem94.woff2?t=1625553188429') format('woff2'),
+       url('https://at.alicdn.com/t/font_2618828_iu1fkgem94.woff?t=1625553188429') format('woff'),
+       url('https://at.alicdn.com/t/font_2618828_iu1fkgem94.ttf?t=1625553188429') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dianhua:before {
+  content: "\e671";
+}
+
+.icon-youxiang-:before {
+  content: "\e6af";
+}
+
+.icon-anquanbaozhang:before {
+  content: "\e694";
+}
+
+.icon-shuaxin:before {
+  content: "\e62b";
+}
+
+.icon-caidan:before {
+  content: "\e653";
+}
+
+.icon-chuanzhen:before {
+  content: "\e608";
+}
+
+.icon-dizhi:before {
+  content: "\e640";
+}
+
+.icon-dianhua01:before {
+  content: "\e68e";
+}
+
+.icon-yuandianxiao:before {
+  content: "\e757";
+}
+
+.icon-qq-copy:before {
+  content: "\e6e5";
+}
+
+.icon-qunfengqqkongjian-copy:before {
+  content: "\e6e6";
+}
+
+.icon-shejiaotubiao-48-copy:before {
+  content: "\e6e7";
+}
+
+.icon-weibo1-copy:before {
+  content: "\e6e8";
+}
+
+.icon-weixindenglu:before {
+  content: "\e639";
+}
+
+.icon-xialajiantou:before {
+  content: "\e638";
+}
+
+.icon-xialajiantou-copy:before {
+  content: "\e758";
+}
+
+.icon-fangzihouse128:before {
+  content: "\e643";
+}
+
+.icon-weixin:before {
+  content: "\e615";
+}
+
+.icon-phone1:before {
+  content: "\e631";
+}
+
+.icon-ai-top:before {
+  content: "\e65a";
+}
+
+.icon-dianhua1:before {
+  content: "\e607";
+}
+
+.icon-jiantou-zuo:before {
+  content: "\e62d";
+}
+
+.icon-jiantou-zuo-copy:before {
+  content: "\e65b";
+}
+
+.icon-iconfonticon6:before {
+  content: "\e62e";
+}
+
+.icon-sousuo:before {
+  content: "\e636";
+}
